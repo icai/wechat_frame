@@ -1,0 +1,65 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "amd": true,
+        "mocha": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true,
+            "impliedStrict": true
+        },
+        "sourceType": "module",
+        "ecmaVersion": 6
+    },
+    "rules": {
+        "no-const-assign": "error",
+        "no-this-before-super": "warn",
+        "no-undef": "error",
+        "no-unreachable": "warn",
+        "no-unused-vars": "warn",
+        "constructor-super": "warn",
+        "valid-typeof": "warn",
+        "comma-dangle": 0,
+        "no-console": 0,
+        "no-constant-condition": 0,
+        "semi": 0,
+        "no-cond-assign":"warn",
+        "no-empty":"warn",
+        "no-dupe-keys": "error",
+        "no-dupe-args": "error",
+        "no-func-assign": "error",
+        "no-invalid-this": "off",
+        "no-redeclare": 0
+    },
+    "globals": {
+        "cc": true,
+        "module": true,
+        "SocketBase": true,
+        "Global":true,
+        "ty":true,
+        "hall5":true,
+        "minihall":true,
+        "dd_Global":true,
+        "tywx":true,
+        "wx":true,
+        "hx":true,
+        "wxEnum":true,
+        "wxDB" :true,
+        "wxtools":true,
+        "bb":true,
+        "wxgm":true,
+        "wxUtil":true,
+        "jsb":true,
+        "cp" : true,
+        "miDB" : true,
+        "mi" : true,
+        "miTools" : true,
+        "miCfg" : true,
+        "miTime" : true
+    },
+    "extends": "eslint:recommended"
+}
